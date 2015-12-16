@@ -8,8 +8,8 @@ apt-get -y install default-jre-headless
 
 # Download and unzip Tomcat
 cd ~
-wget http://www.us.apache.org/dist/tomcat/tomcat-7/v7.0.64/bin/apache-tomcat-7.0.64.zip
-unzip apache-tomcat-7.0.64.zip
+wget http://central.maven.org/maven2/org/apache/tomcat/tomcat/7.0.64/tomcat-7.0.64.zip
+unzip tomcat-7.0.64.zip
 mv apache-tomcat-7.0.64 tomcat
 chmod 775 tomcat/bin/*.sh
 
